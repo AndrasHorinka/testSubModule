@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using ConsoleApp.Modules;
 
 namespace ConsoleApp
 {
@@ -18,7 +19,12 @@ namespace ConsoleApp
             {
                 Console.WriteLine("No such file found");
             }
-            
+            else
+            {
+                var mainConverter = new MainConverter(fileInfo);
+                mainConverter.DoSomeStuffWithTheFile();
+            }
+
             Console.ReadKey();
         }
     }
