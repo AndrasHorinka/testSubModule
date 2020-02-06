@@ -6,4 +6,8 @@
         <RootNamespace>ConsoleApp1</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\SubModuleForTesting\FancyLibrary\FancyLibrary.csproj" />
+    </ItemGroup>
+
 </Project>

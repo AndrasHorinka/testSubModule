@@ -19,5 +19,7 @@ namespace ConsoleApp.Modules
             Console.WriteLine($"Length: {_FileToConvert.Length}");
             Console.WriteLine($"Attributes: {_FileToConvert.Attributes}");
         }
+        
+        
     }
 }

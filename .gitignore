@@ -95,9 +95,11 @@ atlassian-ide-plugin.xml
 # Cursive Clojure plugin
 .idea/replstate.xml
 
-/ConsoleApp/obj/
+#project files
+ConsoleApp/bin/
+ConsoleApp/bin
 ConsoleApp/obj/
-
+ConsoleApp/obj
 
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
